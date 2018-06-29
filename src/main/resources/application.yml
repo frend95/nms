@@ -48,7 +48,7 @@ spring:
   redis:
     host: 127.0.0.1
 c3p0:
-  jdbcUrl: jdbc:mysql://127.0.0.1:3306/nms_dev?useSSL=false
+  jdbcUrl: jdbc:mysql://127.0.0.1:3306/qh_dev?useSSL=false
   user: root
   password: root
 ---
@@ -57,7 +57,7 @@ spring:
   redis:
     host: 127.0.0.1
 c3p0:
-  jdbcUrl: jdbc:mysql://127.0.0.1:3306/nms_dev?useSSL=false
+  jdbcUrl: jdbc:mysql://127.0.0.1:3306/qh_dev?useSSL=false
   user: root
   password: qhhealthserver
 ---
@@ -66,7 +66,7 @@ spring:
   redis:
     host: 127.0.0.1
 c3p0:
-  jdbcUrl: jdbc:mysql://120.78.152.134:3306/nms_dev?useSSL=false
+  jdbcUrl: jdbc:mysql://120.78.152.134:3306/qh_dev?useSSL=false
   user: root
   password: qhhealthserver
 ---

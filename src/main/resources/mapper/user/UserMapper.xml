@@ -95,7 +95,7 @@
             id = #{id}
     </update>
 
-    <select id="getUserList" resultMap="Map">
+    <select id="getUserList" resultType="Map">
         SELECT
             name,
             wechat,
@@ -107,7 +107,7 @@
         LIMIT #{page}, #{size}
     </select>
 
-    <select id="getUserPreview" resultMap="Map">
+    <select id="getUserPreview" resultType="Map">
         SELECT
             name,
             wechat,
